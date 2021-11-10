@@ -1,0 +1,9 @@
+gcc -c poly.c
+gcc -c psum.c
+gcc -c psub.c
+gcc -c pbuild.c
+gcc -c pview.c
+gcc -o pbuild pbuild.o poly.o
+gcc -o pview pview.o poly.o
+gcc -o psum psum.o poly.o
+gcc -o psub psub.o poly.o
